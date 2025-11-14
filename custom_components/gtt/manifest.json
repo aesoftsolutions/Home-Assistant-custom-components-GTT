@@ -1,6 +1,6 @@
 {
 	"domain": "gtt",
-	"name": Gruppo Torinese Trasporti",
+	"name": "Gruppo Torinese Trasporti",
 	"codeowners": ["@aesoftsolutions"],
 	"config_flow": true,
 	"documentation": "https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT",
