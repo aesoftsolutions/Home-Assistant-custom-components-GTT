@@ -1,1 +1,3 @@
-# Home-Assistant-custom-components-GTT
+# Home Assistant - Custom components GTT
+
+[![hacs][hacsbadge]][hacs]
