@@ -1,0 +1,11 @@
+{
+	"domain": "gtt",
+	"name": Gruppo Torinese Trasporti",
+	"codeowners": ["@aesoftsolutions"],
+	"config_flow": true,
+	"documentation": "https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT",
+	"iot_class": "transportation",
+	"issue_tracker": "https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/issues",
+	"requirements": [],
+	"version": "2026.1.0"
+}
