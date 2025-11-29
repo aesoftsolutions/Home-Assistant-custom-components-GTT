@@ -1,18 +1,20 @@
-# Home Assistant - Custom components GTT
+# 🚌 GTT - Home Assistant Custom components
 
-[![hacs][hacsbadge]][hacs]
+[![HACS Badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
 [![GitHub latest release]][githubrelease] ![GitHub Release Date] [![Maintenancebadge]][maintenance] [![GitHub issuesbadge]][github issues]
 
 [![Forum][forumbadge]][forum]
 
-## Information
+## 🌟 Information
 
-## Installation
+## 💾 Installation
 
-## Configuration
+### Prerequisiti
 
-## Contributions are welcome
+## ⚙️ Configuration
+
+## 🆘 Contributions are welcome
 
 ---
 
