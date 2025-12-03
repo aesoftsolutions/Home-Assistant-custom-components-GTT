@@ -2,7 +2,7 @@
 
 [![HACS Badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![GitHub License](https://img.shields.io/github/license/aesoftsolutions/Home-Assistant-custom-components-GTT)
 
-![GitHub Release](https://img.shields.io/github/v/release/aesoftsolutions/Home-Assistant-custom-components-GTT) [![Maintenancebadge]][maintenance] [![GitHub issuesbadge]][github_issues]
+![GitHub Release](https://img.shields.io/github/v/release/aesoftsolutions/Home-Assistant-custom-components-GTT) [![Maintenancebadge]][maintenance]
 
 [![Forum][forumbadge]][forum]
 
