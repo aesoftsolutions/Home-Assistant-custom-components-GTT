@@ -1,20 +1,118 @@
 # 🚌 GTT - Home Assistant Custom components
 
-[![HACS Badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![hacs_badge]([hacsbadge])](https://github.com/custom-components/hacs) ![GitHub License]([github_license])
 
-[![GitHub latest release]][githubrelease] ![GitHub Release Date] [![Maintenancebadge]][maintenance] [![GitHub issuesbadge]][github issues]
+[![GitHub Release]][github_release] [![Maintenancebadge]][maintenance] [![GitHub issuesbadge]][github_issues]
 
 [![Forum][forumbadge]][forum]
 
-## 🌟 Information
+**[Italiano](#v-it) | [English](#v-en)**
 
-## 💾 Installation
+---
 
-### Prerequisiti
+<a name="v-it"></a>
 
-## ⚙️ Configuration
+Questa integrazione Home Assistant fornisce informazioni sugli arrivi dei mezzi pubblici alla fermata richiesta dall'utente.
 
-## 🆘 Contributions are welcome
+## 📑 Contenuti
+
+- [📦 Installazione](#installation-it)
+- [🔧 Configurazione](#configuration-it)
+- [🆘 Contributi](#contributions-it)
+
+---
+
+## 📦 Installazione
+<a name="installation-it"></a>
+
+### Installazione via HACS (Raccomandata)
+
+Installa [HACS](https://hacs.xyz/), questo ti consentirà di effettuare facilmente gli aggiornamenti.
+
+* L'aggiunta di `GTT stop arrivals` ad HACS può essere effettuata utilizzando questo pulsante:
+
+[![image](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aesoftsolutions&repository=ha-gtt&category=integration)
+
+> [!NOTE]
+> Se il pulsante sopra non funziona, aggiungi `https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT` come repository personalizzato di tipo **Integrazione** in HACS.
+
+* Clicca Installa `GTT stop arrivals`.
+* Riavvia Home Assistant.
+
+### Installazione manuale
+
+1. Utilizzando lo strumento scelto, apri la cartella per la configurazione HA (dove trovi `configuration.yaml`).
+2. Se non è presente una cartella `custom_components`, è necessario crearla.
+3. Nella cartella `custom_components` crea una nuova cartella chiamata `ha_gtt`.
+4. Scarica tutti i file dalla cartella `custom_components/ha_gtt/` in questo repository.
+5. Inserisci i file scaricati nella nuova cartella creata nel `passaggio 3`.
+6. Riavvia Home Assistant
+
+## 🔧 Configurazione
+<a name="configuration-it"></a>
+
+### Avvia la finestra di dialogo di integrazione
+La configurazione dell'integrazione avviene tramite l'interfaccia grafica utente di Home Assistant
+1. Apri `Impostazioni` / `Dispositivi e servizi`
+2. Fare clic sul pulsante `Aggiungi integrazione`
+3. Cerca `GTT stop arrivals`
+4. Clicca sull'integrazione per iniziare
+
+## 🆘 Contributi
+<a name="contributions-it"></a>
+
+---
+
+<a name="v-en"></a>
+
+This Home Assistant integration provides information about public transport arrivals at the user's requested stop.
+
+## 📑 Table of Contents
+
+- [📦 Installation](#installation-en)
+- [🔧 Configuration](#configuration-en)
+- [🆘 Contributions](#contributions-en)
+
+---
+
+## 📦 Installation
+<a name="installation-en"></a>
+
+### Installation via HACS (Recommended)
+
+Have [HACS](https://hacs.xyz/) installed, this will allow you to update easily.
+
+* Adding `GTT stop arrivals` to HACS can be done using this button:
+
+[![image](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aesoftsolutions&repository=ha-gtt&category=integration)
+
+> [!NOTE]
+> If the button above doesn't work, add `https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT` as a custom repository of type **Integration** in HACS.
+
+* Click Install on the `GTT stop arrivals` card.
+* Restart Home Assistant.
+
+### Manual Installation
+
+1. Using the tool of choice open the folder for your HA configuration (where you find `configuration.yaml`).
+2. If you do not have a `custom_components` folder there, you need to create it.
+3. In the `custom_components` folder create a new folder called `ha_gtt`.
+4. Download all the files from the `custom_components/ha_gtt/` folder in this repository.
+5. Place the files you downloaded in the new folder you created in `step 3`.
+6. Restart Home Assistant
+
+## 🔧 Configuration
+<a name="configuration-en"></a>
+
+### Start integration dialog
+The configuration of integration is made via Home Assistant GUI
+1. Open `Settings` / `Devices & services`
+2. Click on `Add Integration` button
+3. Search for `GTT stop arrivals`
+4. Click on integration to start
+
+## 🆘 Contributions
+<a name="contributions-en"></a>
 
 ---
 
@@ -25,10 +123,11 @@ All images in this repository are used by the author for identification purposes
 The use of these names, trademarks and brands appearing in these image files, do not imply endorsement.
 
 [hacs]: https://github.com/hacs/integration
-[hacsbadge]: https://img.shields.io/badge/HACS-Default-orange.svg
+[hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg
 [github latest release]: https://img.shields.io/github/v/release/aesoftsolutions/Home-Assistant-custom-components-GTT
-[githubrelease]: https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/releases
+[github_release]: https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/releases
 [github release date]: https://img.shields.io/github/release-date/aesoftsolutions/Home-Assistant-custom-components-GTT
+[github_license]: https://img.shields.io/github/release-date/aesoftsolutions/Home-Assistant-custom-components-GTT
 [maintenancebadge]: https://img.shields.io/badge/Maintained%3F-Yes-brightgreen.svg
 [maintenance]: https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/graphs/commit-activity
 [github issuesbadge]: https://img.shields.io/github/issues/aesoftsolutions/Home-Assistant-custom-components-GTT

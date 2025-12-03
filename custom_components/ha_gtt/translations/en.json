@@ -1,0 +1,20 @@
+{
+	"config": {
+		"step": {
+			"user": {
+				"title": "GTT stop arrivals",
+				"data": {
+					"stop_id": "Stop ID (es. 1762)",
+					"name": "Name (es. Arrivals Via Cernaia)"
+				}
+			}
+		},
+		"error": {
+			"invalid_stop_id": "Stop ID invalid or not found.",
+			"cannot_connect": "Unable to connect to the GTT API. Please check your connection."
+		},
+		"abort": {
+			"already_configured": "This stop has already been configured."
+		}
+	}
+}

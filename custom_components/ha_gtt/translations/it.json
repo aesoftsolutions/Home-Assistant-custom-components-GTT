@@ -1,0 +1,20 @@
+{
+	"config": {
+		"step": {
+			"user": {
+				"title": "GTT arrivi in fermata",
+				"data": {
+					"stop_id": "Numero fermata GTT (es. 1762)",
+					"name": "Nome (es. Arrivi Via Cernaia)"
+				}
+			}
+		},
+		"error": {
+			"invalid_stop_id": "Numero fermata non valido o non trovato.",
+			"cannot_connect": "Impossibile connettersi all'API GTT. Controlla la tua connessione."
+		},
+		"abort": {
+			"already_configured": "Questa fermata è già stata configurata."
+		}
+	}
+}
