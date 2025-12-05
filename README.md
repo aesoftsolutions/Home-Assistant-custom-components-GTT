@@ -195,7 +195,7 @@ entity: sensor.gtt_fermata_466
 
 ## 📝 Changelog
 
-### v0.2.0 (2025-12-01)
+### v0.2.0 (2025-12-05)
 - 🎉 Beta public release (already available in HACS)
 - ✨ Custom card
 - 🎨 Add more stop information
