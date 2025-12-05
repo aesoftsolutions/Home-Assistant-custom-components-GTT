@@ -53,11 +53,11 @@ The configuration of integration is made via Home Assistant GUI
 3. Search for `GTT stop arrivals`
 4. Click on integration to start
 5. Enter required stop information:
-* **GTT Stop ID:** Enter the number of your stop (e.g., `466`).
-* **Name:** A descriptive name for the sensor (e.g., `GTT fermata 466`).
+  * **GTT Stop ID:** Enter the number of your stop (e.g., `466`).
+  * **Name:** A descriptive name for the sensor (e.g., `GTT fermata 466`).
 6. Enter optional area information:
-* **Device name:** A descriptive name for the device (e.g., `GTT fermata 466`).
-* **Area:** An area to assign the newly created sensor to.
+  * **Device name:** A descriptive name for the device (e.g., `GTT fermata 466`).
+  * **Area:** An area to assign the newly created sensor to.
 
 ## 📊 Sensor exposed data
 
