@@ -53,22 +53,22 @@ The integration creates a `sensor.assigned_name` entity (e.g. `sensor.gtt_fermat
 | Property | Description |
 | :--- | :--- |
 | **State** | The real-time arrival time of the first vehicle (es. `10:09`). |
-| `stop_id` (attribute) | The ID of the configured stop. |
-| `stop_name` (attribute) | The name of the configured stop. |
-| `stop_desc` (attribute) | The description of the configured stop (road intersection). |
-| `stop_city` (attribute) | The city where the configured stop is located. |
-| `line_arrivals` (attribute) | A comprehensive dictionary list with real-time next arrivals, grouped by line, ideal for advanced Lovelace cards. |
-| `incoming_line` (attribute) | The line of the first arriving vehicle.. |
-| `direction_next` (attribute) | The direction of the first arriving vehicle. |
+| `stop_id` | The ID of the configured stop. |
+| `stop_name` | The name of the configured stop. |
+| `stop_desc` | The description of the configured stop (road intersection). |
+| `stop_city` | The city where the configured stop is located. |
+| `line_arrivals` | A comprehensive dictionary list with real-time next arrivals, grouped by line, ideal for advanced Lovelace cards. |
+| `incoming_line` | The line of the first arriving vehicle.. |
+| `direction_next` | The direction of the first arriving vehicle. |
 
 `line_arrivals` is structured with a list of the following attributes:
 
 | Property | Description |
 | :--- | :--- |
-| `line` (attribute) | The ID of the line. |
-| `direction` (attribute) | The destination of the line. |
-| `next_rt` (attribute) | The list of next arrivals at the stop for the line. |
-| `first_arrival` (attribute) | The time of the next arrival at the stop for the line. |
+| `line` | The ID of the line. |
+| `direction` | The destination of the line. |
+| `next_rt` | The list of next arrivals at the stop for the line. |
+| `first_arrival` | The time of the next arrival at the stop for the line. |
 
 ### Attributes structure representation (example with stop 466)
 
