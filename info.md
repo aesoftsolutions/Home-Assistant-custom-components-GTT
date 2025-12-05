@@ -160,7 +160,6 @@ To use this custom card you need to follow these steps
 type: custom:gtt-timeline-card
 entity: sensor.gtt_fermata_466
 ```
-8. Save
 
 ---
 
