@@ -5,7 +5,7 @@
 				"title": "GTT arrivi in fermata",
 				"data": {
 					"stop_id": "Numero fermata GTT (es. 1762)",
-					"name": "Nome (es. Arrivi Via Cernaia)"
+					"name": "Nome (es. GTT fermata 1762)"
 				}
 			}
 		},

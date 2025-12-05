@@ -66,12 +66,11 @@ class GTTSensor(SensorEntity):
     def extra_state_attributes(self):
         """Returns extra attributes (full arrival list)"""
         attributes = {
-            "fermata_id": self._stop_id,
-            "fermata_code": self.coordinator.data.info[0].get("code"),
-            "fermata_name": self.coordinator.data.info[0].get("name"),
-            "fermata_desc": self.coordinator.data.info[0].get("description"),
-            "fermata_city": self.coordinator.data.info[0].get("city"),
-            "arrivi_per_linea": self.coordinator.data.arrivals or [],
+            "stop_id": self._stop_id,
+            "stop_name": self.coordinator.data.info[0].get("name"),
+            "stop_desc": self.coordinator.data.info[0].get("description"),
+            "stop_city": self.coordinator.data.info[0].get("city"),
+            "line_arrivals": self.coordinator.data.arrivals or [],
         }
 
         # Let's add an attribute for the next bus/tram ever
@@ -79,8 +78,8 @@ class GTTSensor(SensorEntity):
             # Find the closest arrival point among all lines
             # For simplicity, let's consider the first arrival of the first line in the JSON
             first_line_data = self.coordinator.data.arrivals[0]
-            attributes["linea_in_arrivo"] = first_line_data.get("linea")
-            attributes["direzione_prossimo"] = first_line_data.get("direzione")
+            attributes["incoming_line"] = first_line_data.get("linea")
+            attributes["direction_next"] = first_line_data.get("direzione")
 
         return attributes
 

@@ -45,10 +45,10 @@ class GTTClient:
                     first_arrival = rt_arrivals[0] if rt_arrivals else "N/A"
                     
                     arrivals.append({
-                        "linea": line_data.get("Linea"),
-                        "direzione": line_data.get("Direzione"),
-                        "prossimi_rt": rt_arrivals,
-                        "primo_arrivo": first_arrival,
+                        "line": line_data.get("Linea"),
+                        "direction": line_data.get("Direzione"),
+                        "next_rt": rt_arrivals,
+                        "first_arrival": first_arrival,
                     })
                     
                 return arrivals
