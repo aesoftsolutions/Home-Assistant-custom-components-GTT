@@ -8,7 +8,7 @@ DOMAIN = "ha_gtt"
 
 CONF_STOP_ID = "stop_id"
 CONF_NAME = "name"
-DEFAULT_TITLE = "GTT arrivi in fermata"
+DEFAULT_TITLE = "GTT stop arrivals"
 
 # Update interval (60 seconds)
 SCAN_INTERVAL = timedelta(seconds=60)

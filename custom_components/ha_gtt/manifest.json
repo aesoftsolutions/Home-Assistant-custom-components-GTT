@@ -1,12 +1,12 @@
 {
   "domain": "ha_gtt",
-  "name": "GTT arrivi in fermata",
+  "name": "GTT stop arrivals",
   "codeowners": ["@aesoftsolutions"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT",
+  "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/issues",
   "requirements": [],
-  "version": "0.2.0",
-  "iot_class": "cloud_polling"
+  "version": "0.3.0"
 }

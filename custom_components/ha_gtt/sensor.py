@@ -42,7 +42,7 @@ class GTTSensor(SensorEntity):
             "identifiers": {(DOMAIN, stop_id)},
             "name": name,
             "manufacturer": "GTT Torino",
-            "model": "Arrivi in fermata",
+            "model": "Stop arrivals",
             # "suggested_area": "Home",
         }
         self._stop_id = stop_id
@@ -58,7 +58,7 @@ class GTTSensor(SensorEntity):
 
             # Let's assume we use the first arrival of the first line as the main state
             first_line_data = data[0]
-            return first_line_data.get("primo_arrivo", "N/A")
+            return first_line_data.get("first_arrival", "N/A")
 
         return "N/A"
 

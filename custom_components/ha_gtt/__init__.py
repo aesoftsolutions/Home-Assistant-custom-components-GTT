@@ -25,13 +25,13 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         dataInfo = await client.get_stop_data()
         if dataInfo is None:
             _LOGGER.error("Unable to retrieve GTTTools data or parsing error.")
-            raise UpdateFailed("Impossibile recuperare i dati GTTTools o errore di parsing.")
+            raise UpdateFailed("Unable to retrieve GTTTools data or parsing error.")
 
         """Function to retrieve data from the GTT API"""
         dataArrivals = await client.get_next_arrivals()
         if dataArrivals is None:
             _LOGGER.error("Unable to retrieve GTT data or parsing error.")
-            raise UpdateFailed("Impossibile recuperare i dati GTT o errore di parsing.")
+            raise UpdateFailed("Unable to retrieve GTT data or parsing error.")
 
         return GTTStopData(info=dataInfo, arrivals=dataArrivals)
 

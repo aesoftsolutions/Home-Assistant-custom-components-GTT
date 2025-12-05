@@ -4,8 +4,8 @@
 			"user": {
 				"title": "GTT arrivi in fermata",
 				"data": {
-					"stop_id": "Numero fermata GTT (es. 1762)",
-					"name": "Nome (es. GTT fermata 1762)"
+					"stop_id": "Numero fermata GTT (es. 466)",
+					"name": "Nome (es. GTT fermata 466)"
 				}
 			}
 		},
