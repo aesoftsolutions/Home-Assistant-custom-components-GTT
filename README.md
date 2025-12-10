@@ -1,6 +1,8 @@
 # GTT - Home Assistant Custom components
 
-<img src="https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/blob/main/assets/brand/icon.png" width="150px">
+<p align="center">
+  <img src="https://github.com/aesoftsolutions/Home-Assistant-custom-components-GTT/blob/main/assets/brand/logo@2x.png" width="300px">
+</p>
 
 [![HACS Badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![GitHub License](https://img.shields.io/github/license/aesoftsolutions/Home-Assistant-custom-components-GTT)
 
