@@ -54,7 +54,7 @@ class GttTimelineCard extends HTMLElement {
   static get styles() {
     return `
       .gtt-container {
-        background: var(--card-background-color);
+        /*background: var(--card-background-color);*/
         border-radius: 12px;
         padding: 14px;
         box-shadow: var(--ha-card-box-shadow);
