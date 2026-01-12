@@ -196,6 +196,9 @@ entity: sensor.gtt_fermata_466
 
 ## 📝 Changelog
 
+### v1.0.0 (2025-12-30)
+- 🌐 First HACS release
+
 ### v0.3.0 (2025-12-05)
 - 🌐 Fix some localization
 
