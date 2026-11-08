@@ -181,6 +181,9 @@ entity: sensor.gtt_fermata_466
 
 ## 📝 Changelog
 
+### v1.0.1 (2026-11-08)
+- 🌐 Add brand icons
+
 ### v1.0.0 (2025-12-30)
 - 🌐 First HACS release
 
